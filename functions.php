@@ -1,12 +1,12 @@
 <?php
 
 //setup
-define('PIXMIX_PLUGIN_DIR', plugin_dir_path(__FILE__));
+define('WTBS_THEME_DIR', plugin_dir_path(__FILE__));
 
 // Includes
-include(PIXMIX_PLUGIN_DIR . 'includes/register-blocks.php');
+include(WTBS_THEME_DIR . 'includes/register-blocks.php');
 
-//Hooks
+// Hooks
 add_action('init', 'wtbs_register_blocks');
 
  

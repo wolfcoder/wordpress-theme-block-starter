@@ -18,7 +18,7 @@ module.exports = window["wp"]["blocks"];
   \************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"wordpress-theme-block-starter/my-block","title":"My Block","category":"text","icon":"smiley","editorScript":"file:./index.js","textdomain":"wordpress-theme-block-starter"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"wordpress-theme-block-starter/my-block","title":"My Block","category":"text","icon":"smiley","textdomain":"wordpress-theme-block-starter","editorScript":"file:./index.js"}');
 
 /***/ })
 
@@ -100,7 +100,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./block.json */ "./src/block.json");
-console.log("test");
 
 
 

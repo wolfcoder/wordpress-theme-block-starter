@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wordpress-theme-block-starter/header-02",
+  "title": "Header 02",
+  "description": "Header 02 : Simple with logo and menu",
+  "category": "widgets",
+  "icon": "smiley",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

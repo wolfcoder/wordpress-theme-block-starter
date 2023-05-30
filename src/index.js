@@ -1,4 +1,3 @@
-console.log("test");
 import { registerBlockType } from "@wordpress/blocks";
 import metadata from "./block.json";
 
