@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wordpress-theme-block-starter/my-block",
+  "title": "My Block",
+  "category": "text",
+  "icon": "smiley",
+  "editorScript": "file:./index.js",
+  "textdomain": "wordpress-theme-block-starter"
+}
