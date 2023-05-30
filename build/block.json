@@ -5,6 +5,6 @@
   "title": "My Block",
   "category": "text",
   "icon": "smiley",
-  "editorScript": "file:./index.js",
-  "textdomain": "wordpress-theme-block-starter"
+  "textdomain": "wordpress-theme-block-starter",
+  "editorScript": "file:./index.js"
 }

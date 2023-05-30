@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wordpress-theme-block-starter/header-01",
+  "title": "Header 01",
+  "description": "Header 01",
+  "category": "design",
+  "icon": "smiley",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}
