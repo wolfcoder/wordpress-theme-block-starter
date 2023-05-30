@@ -1,0 +1,29 @@
+{
+  "name": "wordpress-theme-block-starter",
+  "version": "1.0.0",
+  "description": "WordPress Theme Block Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfcoder/wordpress-theme-block-starter.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Block",
+    "Guttenberg"
+  ],
+  "author": "Bams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfcoder/wordpress-theme-block-starter/issues"
+  },
+  "homepage": "https://github.com/wolfcoder/wordpress-theme-block-starter#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.5.0"
+  }
+}
