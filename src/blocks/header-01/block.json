@@ -4,12 +4,12 @@
     "name": "wordpress-theme-block-starter/header-01",
     "title": "Header 01",
     "description": "Header 01",
-    "category": "design",
+    "category": "theme",
     "icon": "smiley",
     "editorScript": "file:./index.js",
     "attributes": {
         "content": {
-            "type": "string"
+            "type": "object"
         }
     }
 }

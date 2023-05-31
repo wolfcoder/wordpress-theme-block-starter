@@ -58,8 +58,10 @@ function save(_ref) {
   const {
     content
   } = attributes;
-  console.log(content);
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h1", null, content);
+  console.log(attributes);
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("nav", {
+    className: " bg-blue-500 w-full py-2"
+  }, "header 01"));
 }
 
 /***/ }),
@@ -100,7 +102,7 @@ module.exports = window["wp"]["element"];
   \*****************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"wordpress-theme-block-starter/header-01","title":"Header 01","description":"Header 01","category":"design","icon":"smiley","editorScript":"file:./index.js","attributes":{"content":{"type":"string"}}}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"wordpress-theme-block-starter/header-01","title":"Header 01","description":"Header 01","category":"theme","icon":"smiley","editorScript":"file:./index.js","attributes":{"content":{"type":"object"}}}');
 
 /***/ })
 

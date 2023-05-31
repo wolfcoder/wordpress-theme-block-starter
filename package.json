@@ -4,9 +4,13 @@
   "description": "WordPress Theme Block Starter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm-run-all --parallel start watchtailwind",
+    "buildall": "npm-run-all --sequential build buildtailwind",
     "start": "wp-scripts start",
-    "build": "wp-scripts build"
+    "build": "wp-scripts build",
+    "buildtailwind": "tailwindcss -i ./src/index.css -o ./assets/css/index.css --minify",
+    "watchtailwind": "tailwindcss -i ./src/index.css -o ./assets/css/index.css --watch ",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -24,7 +28,13 @@
   },
   "homepage": "https://github.com/wolfcoder/wordpress-theme-block-starter#readme",
   "devDependencies": {
+    "@headlessui/react": "^1.7.14",
+    "@tailwindcss/typography": "^0.5.9",
     "@wordpress/scripts": "^26.5.0",
+    "npm-run-all": "^4.1.5",
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18"
   }
 }
