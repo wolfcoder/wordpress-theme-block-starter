@@ -6,6 +6,7 @@ function wtbs_register_blocks()
 
     // array of blocks
     $blocks = [
+        ['name' => 'heroes-01'],
         ['name' => 'header-01'],
         ['name' => 'header-02', 'options' => ['render_calback' => 'wtbs_header02_cb']]
     ];

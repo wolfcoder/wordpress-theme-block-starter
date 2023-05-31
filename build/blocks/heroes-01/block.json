@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wordpress-theme-block-starter/heroes-01",
+  "title": "heroes 01",
+  "description": "heroes 01",
+  "category": "theme",
+  "icon": "smiley",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "backgroundColor": {
+      "type": "string",
+      "default": "white"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "black"
+    }
+  }
+}
